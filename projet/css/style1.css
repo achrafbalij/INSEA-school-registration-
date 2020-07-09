@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*---body---*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 100px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color:darkseagreen !important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none !important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-------Slider-------*/
+.contact-image img
+{
+    margin: 10;
+    border-color: darkgreen;
+    border-width:medium;
+    border-style: ridge;
+    height: 80%;
+    width: 80%;
+}
+.contact
+{
+    margin: 10;
+}
+.button-validate
+{
+    background: darkgreen;
+    color: white;
+    border-style: outset;
+    border-color: green;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+}
+.background-contact
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

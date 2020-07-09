@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link ref="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+<!--NavigationBar-->
+        <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="styleImages/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="accueil.html">Accueil</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="register.php">Inscription</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="connexion.php">Connexion</a>
+      </li>
+    </ul>
+  </div>
+            </nav></section>   
+<!---contact--->     
+<div class="background-contact" style="background-image: url('styleImages/contact%20us.jpg');">
+<div class="contact">
+				<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td valign="top" align="left" class="contact_left">
+				<h3>Contact</h3>				<div class="contact-image">
+			<a id="map"href="https://www.google.fr/maps/place/Institut+National+de+Statistique+et+d'Economie+Appliqu%C3%A9e/@33.984359,-6.8615832,15z/data=!4m2!3m1!1s0x0:0x877696d1bf2ecee6" target="_blank" >
+			<img src="styleImages/maps.jpg" alt="Image de contact" align="middle"/>			</a>
+		</div>
+	
+	
+		<div class="contact-address">
+			<span class="jicons-icons" >
+			<img src="styleImages/con_address.png" alt="Adresse: "  />		</span>
+		<address>
+				<span class="contact-street">
+			Institut National de Statistique et d'Economie Appliquée		</span>
+				<span class="contact-suburb">
+			Rabat-Instituts		</span>
+				<span class="contact-state">
+			Rabat		</span>
+				<span class="contact-postcode">
+			B.P. 6217 		</span>
+				<span class="contact-country">
+			Maroc		</span>
+	
+	</address>
+	</div>
+
+	<div class="contact-contactinfo">
+
+	<p>
+		<span class="jicons-icons" >
+			<img src="styleImages/con_tel.png" alt="Téléphone: "  />		</span>
+		<span class="contact-telephone">
+			(212) 05 37 77 48 59/60		</span>
+	</p>
+	<p>
+		<span class="jicons-icons" >
+			<img src="styleImages/con_fax.png" alt="Fax: "  />		</span>
+		<span class="contact-fax">
+		(212) 05  37 77 94 57		</span>
+	</p>
+	<p>
+		<span class="jicons-icons" >
+		</span>
+		<span class="contact-webpage">
+			<a href="accueil.html">
+			http://www.insea.ac.ma/</a>
+		</span>
+	</p>
+	</div>
+<h3>Informations diverses</h3>					<div class="contact-miscinfo">
+<div class="jicons-icons">
+						<img src="styleImages/con_info.png" alt="Informations diverses: "  />					</div>
+					<div class="contact-misc">
+						<p>
+	Moyens d'accès :&nbsp;</p>
+<ul>
+	<li>
+		Via le tramway Ligne 1, terminus</li>
+	<li>
+		Via le bus al irfane</li>
+</ul>
+<p>
+	Pour toutes informations,n'hésitez pas à nous contactez.</p>
+					</div>
+				</div>
+	</td><td valign="top" align="left" class="contact_right">
+<h3>Formulaire de contact</h3>				
+<div class="contact-form">
+	<form id="contact-form" action="sendEmail.php" method="post" class="form-validate">
+		<fieldset>
+			<legend>Envoyer un e-mail. Tous les champs précédés d'un * sont obligatoires.</legend>
+			<dl>
+				<dt><label>Nom<span class="star">&#160;*</span></label></dt>
+				<dd><input type="text" name="nom" size="30" required></dd>
+				<dt><label>E-mail<span class="star">&#160;*</span></label></dt>
+				<dd><input type="email" name="email" size="30" required></dd>
+				<dt><label>Sujet<span class="star">&#160;*</span></label></dt>
+				<dd><input type="text" name="sujet" size="60" required></dd>
+                <dt><label>Message<span class="star">&#160;*</span></label></dt>
+                <dd><textarea name="msg" cols="50" rows="10" required></textarea></dd>
+				<dd><input class="button-validate" type="submit" name="send" value="Envoyer">
+					</dd>
+			</dl>
+		</fieldset>
+	</form>
+</div>
+</td></tr></table>
+    </div></div>
+      </body>
+</html>

@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Check Email</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .pikachu img{
+            position: absolute;
+            bottom: 80px;
+            animation-name: pikachuWalk;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .mainPikachu{
+            width: 100%;
+            height: 100vh;
+            background-image: url('');
+            background-size: 100% 100%;
+            position: relative;
+        }
+        .shock-right {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    -webkit-transform: rotateZ(-14deg);
+    transform: rotateZ(-14deg);
+    z-index: 10;
+}
+        .shock-left {
+    position: absolute;
+    left: 28%;
+    top: 20%;
+    -webkit-transform: rotateZ(140deg);
+    transform: rotateZ(140deg);
+    width: 140px;
+    z-index: 10;
+}
+        h2{
+            color: black;
+            text-transform: uppercase;
+            font-size: 2em;
+            font-family: 'Bangers', cursive;
+            animation: textani 6s linear;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            left: 35%;
+            top: 20%
+        }
+        
+        @keyframes pikachuWalk{
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(550%);
+            }
+        }
+        @keyframes textani{
+            0%{
+                font-size: 2em;
+            }
+            50%{
+                font-size: 4em;
+            }
+            100%{
+                font-size: 2em;
+            }
+        }
+        
+    </style>
+    
+    </head>
+    <body>
+    
+        <div class="mainPikachu">
+            <div class="pikachu">
+                <img src="styleImages/Pikachu.gif" width="200px">
+                </div>
+                <h2>Check your mail</h2>
+            <img class="shock-left" src="http://www.megghy.com/gif_animate/natura/tuoni/3.gif">
+            <img class="shock-right" src="http://www.megghy.com/gif_animate/natura/tuoni/3.gif">
+            
+        
+        </div>
+    
+    </body>
+
+</html>
